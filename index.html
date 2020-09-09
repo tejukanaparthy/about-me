@@ -1,6 +1,43 @@
 <!doctype html>
 <html lang="en">
   <head>
+    a {
+    color:white;
+    margin-right: 2em;
+    padding: 2em;
+    font-size: 1.3em;
+    font-family: arial;
+    border: thin;
+    border-bottom: 2px white;
+    padding:15px;
+    text-decoration-line: none;
+}
+a:hover {
+        animation-name: link;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        border-bottom: solid;
+        border-bottom-width: 4px;
+        color:rgb(56, 170, 164);
+}
+@keyframes link {
+    0% {border-bottom-width: 0px}
+    100% {border-bottom-width: 4px;}         
+ }
+nav{
+    align-content: right;
+}
+h1 {
+    text-align:left;
+    color:rgb(179, 212, 205);
+    margin-left: 1em;
+    font-size: 2.3em;
+}
+nav{
+    background-color:rgb(146, 190, 184);
+    margin:0;
+    padding:1em;
+}
     <meta charset="utf-8">
     <title>Home Alone</title>
   </head>
